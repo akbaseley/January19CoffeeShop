@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Registration Form";
+}
+
+
+<h2>User Registration Formm</h2>
+
+<form action="~/Home/SaveUser" method="post">
+    <input type="text" name="FirstName" placeholder="First name" />
+    <input type="text" name="LastName" placeholder="Last name" />
+    <input type="text" name="Email" placeholder="Email" />
+    <input type="number" name="Age" placeholder="Age" />
+    <input type="text" name="PhoneNumber" placeholder="Phone Number" />
+    <input type="password" name="Password" placeholder="Password" />
+    <input type="submit" value="Register!" />
+</form>
